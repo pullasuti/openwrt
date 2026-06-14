@@ -2,7 +2,7 @@
 Personal repo for the X80-5G. 
 
 The 5G modem in TP-Link Deco X80-5G defaults to PCIe mode. This means it will only work in PPP mode, unless you either:
-- Enable the radio fully (GPIO 55)
+- Enable the radio fully (GPIO 55) and do one of the following
 - Either: Change modem to USB mode (AT+QCFG="data_interface",0,0) and enable QMI or MBIM (AT+QCFG="usbnet",0 for QMI AT+QCFG="usbnet",2 for MBIM)
 - Or: Leave modem in PCIe mode and make sure you have compiled OpenWRT with MHI 
 
