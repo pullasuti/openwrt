@@ -646,7 +646,7 @@ define Device/tplink_deco-x60-v2
 	PAGESIZE := 2048
 	DEVICE_DTS_CONFIG := config@ac04
 	SOC := ipq8071
-	DEVICE_PACKAGES := ipq-wifi-tplink_deco-x60-v2 kmod-ath10k-ct-smallbuffers ath10k-firmware-qca9887-ct
+	DEVICE_PACKAGES := ipq-wifi-tplink_deco-x60-v2
 endef
 TARGET_DEVICES += tplink_deco-x60-v2
 
